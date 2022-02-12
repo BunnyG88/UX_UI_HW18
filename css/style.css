@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom:0px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+/* This is where my header starts */
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-bottom: 3px solid #000000;
+}
+header img{
+	float:left;
+}
+
+.logo {
+	color: #000000;
+	font-weight: bold;
+	text-align: undefined;
+	width: 10%;
+	float: left;
+	margin-top: 8px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+
+header nav ul {
+	list-style: none;
+	float: right;
+	height: 30px;
+}
+
+nav ul li {
+	float: left;
+	color: #000000;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ 
+ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+ul li:hover a {
+	color: #A634D7;
+}
+/* This is where my header ends */
+
+/* This is where my hero starts */
+section{
+	margin-top:0px;
+	background-color: #000000;
+	width: 100%;
+	height: 350px;
+	color: #FFFFFF;	
+}
+
+.herotext{
+	float: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+section h1{
+	margin-top:0px;
+	margin-left: 0px;
+	font-size: 48px;
+}
+
+section p{
+	font-size: 20px;
+	
+}
+
+section button{
+	height: 30px;
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	border-with: 4px;
+	border-color: #A634D7;
+	color: #A634D7;
+}
+
+section button:hover {
+	background-color: #A634D7;
+	color: #FFFFFF;
+}
+
+section img {
+	float: right;
+	padding-right: 10%;
+	padding-top: 3%;
+}
+
+footer {
+	width: 100%;
+	height: 75px;
+	background-color: #FFFFFF;
+	border-top: 3px solid #000000;
+	color: #000000;
+	align-content: center;
+}
+
+footer p{
+	float: left;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+	padding-top:10px;
+}
+
+footer ul li{
+	display: inline-block;
+}
